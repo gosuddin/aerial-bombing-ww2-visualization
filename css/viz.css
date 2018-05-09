@@ -1,0 +1,112 @@
+/*
+COLOR PALETTE
+
+INDICATORS
+RED:    #D11141 
+GREEN:  #00B159 
+YELLOW: #FFC425 
+ORANGE: #F37735 
+BLUE:   #00AEDB
+
+DASHBOARD LAYERS
+LAYER 0 : #2E3959  #7A7D7F  #192340  #2A4C6E  #687DA6
+LAYER 1 : #242B40  #939699  #3C4E73  #00213B  #566D8C
+LAYER 2 : #6D7B8C  #ABAFB2  #2C3540  #262626  #283240
+LAYER 3 : #AEB6BF  #C4C8CC  #F2F2F2  #525252  #99AABF
+
+*/
+
+
+body{
+    background-color: #AEB6BF ;
+   /* color: #FFFFFF;*/
+}
+
+#splash{
+    visibility: hidden;
+    position : absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    background-color: white;
+    
+}
+#loader{
+    left: 40%;
+    top : 50%;
+    
+}
+
+#mapid{
+ height: 180px; 
+}
+
+
+.viz-header{
+    background-color:#C4C8CC;
+}
+
+.viz-body{
+    background-color:#F2F2F2;   
+}
+
+
+.tip{
+    background-color: black;
+    font-size: 10px;
+    padding: 3px
+    opacity: 0.9;
+    border-width: 2px;
+    border-color: white;
+    color : orange;
+    width : fit-content;
+    height: fit-content;
+    border-style: solid;
+    text-align: center;
+}
+
+.info{
+    background-color: black;
+    opacity: 0.9;
+    border-width: 2px;
+    border-color: white;
+    color : orange;
+    width : fit-content;
+    height: fit-content;
+    border-style: solid;
+    
+}
+
+#top_ind.dc-chart g.row text{
+    fill : #000;
+
+}
+
+
+
+/*.viz-header {
+    background-color: #566D8C;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+    
+    min-width:200px;
+    margin: 10px 10px 0px 10px;
+    
+}
+
+.viz-body{
+    background-color: #F2F2F2;
+    min-width:200px;
+    min-height:200px;
+    opacity: 0.1;
+    
+    
+    
+    
+    margin:0px 10px 10px 10px;
+    
+}*/
+
+
